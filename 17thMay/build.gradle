@@ -1,6 +1,4 @@
 apply plugin:'java'
-apply plugin:'application'
-mainClassName="com.cg.demo.HelloWorld"
 
 repositories{
 	maven{
@@ -9,8 +7,6 @@ repositories{
 }
 dependencies{
 	testCompile 'junit:junit:4.4'
-}
-
-dependencies{
 	testCompile 'org.mockito:mockito-all:1.10.19'
 }
+
